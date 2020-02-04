@@ -1,0 +1,30 @@
+{
+    "name": "wandersonm/notification",
+    "description": "This is libary that uses composer as the basis for genareting email notification",
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wanderson Martins",
+            "email": "martins.wanderson@hotmail.com",
+	    "homepage": "https://www.agvbrasil.com.br",
+	    "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.4"
+    },
+    "config": {
+
+	"vendor-dir":"lib_ext"
+    },
+    "autoload": {
+
+	    "psr-4": {
+
+		    "Notification\\" : "_app"
+
+	    } 
+    }
+}
